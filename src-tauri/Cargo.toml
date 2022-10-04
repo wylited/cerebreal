@@ -1,11 +1,9 @@
 [package]
-name = "tauri_vue_template"
+name = "Cerebreal"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["Ville Säävuori"]
-license = "MIT"
-repository = "https://github.com/Uninen/tauri-vue-template"
-default-run = "tauri_vue_template"
+description = "A local first, knowledge managment system that utilizes the power of org mode without the requirement to learn emacs."
+authors = ["Wylited"]
+license = "LGPL-3.0"
 edition = "2021"
 rust-version = "1.57"
 
