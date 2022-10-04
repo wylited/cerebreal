@@ -16,10 +16,7 @@ Currently, there is a lack of note taking tool utilizes the power of org-mode cr
 
 > I wanted to create a tool that would allow me to take notes in a way that I could easily search and organize while utilizing embedded latex equations and graphs.
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-
+---
 
 ## Features
 
@@ -40,6 +37,11 @@ Currently, there is a lack of note taking tool utilizes the power of org-mode cr
 ```sh
 pnpm i
 ```
+
+
+## Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
 ## Usage
 

@@ -3,19 +3,19 @@ name = "Cerebreal"
 version = "0.1.0"
 description = "A local first, knowledge managment system that utilizes the power of org mode without the requirement to learn emacs."
 authors = ["Wylited"]
-license = "LGPL-3.0"
+license = "LGPL-3.0"                                                                                
 edition = "2021"
 rust-version = "1.57"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-tauri-build = { version = "1.1.1", features = [] }
+tauri-build = { version = "1.1", features = [] }
 
 [dependencies]
-serde_json = "1.0.85"
-serde = { version = "1.0.145", features = ["derive"] }
-tauri = { version = "1.1.1", features = ["api-all"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { version = "1.1", features = ["api-all"] }
 
 [features]
 # by default Tauri runs in production mode
