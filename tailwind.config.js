@@ -13,9 +13,17 @@ module.exports = {
   //   },
   // },
   plugins: [
-    // require('@tailwindcss/aspect-ratio'),
-    // require('@tailwindcss/line-clamp'),
-    // require('@tailwindcss/typography'),
-    // require('@tailwindcss/forms'),
-  ],
+    require("daisyui"),
+    require("tailwind-heropatterns")({ // https://github.com/AndreaMinato/tailwind-heropatterns
+      variants: [],
+      patterns: [],
+      colors: {
+        default: "#191d24",
+      },
+    
+      // The foreground opacity
+      opacity: {
+        default: "1.0", "90": "0.90", "80": "0.80", "75": "0.75", "70": "0.70", "60": "0.60", "50": "0.50", "40": "0.40", "30": "0.30", "25": "0.25", "20": "0.20", "10": "0.10", "5": "0.05"
+      }
+    }),],
 }
