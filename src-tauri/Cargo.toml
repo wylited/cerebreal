@@ -1,7 +1,7 @@
 [package]
-name = "cerebreal"
+name = "Cerebreal"
 version = "0.1.0"
-description = "A simple note taking application that uses org-mode."
+description = "A local first, knowledge managment system that utilizes the power of org mode without the requirement to learn emacs."
 authors = ["Wylited"]
 license = "LGPL-3.0"                                                                                
 edition = "2021"
